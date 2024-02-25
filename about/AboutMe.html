@@ -10,13 +10,13 @@
 </head>
 <body>
     <header>
+        <div class="header-text">
+            <h1 data-text="Nicolas Vega" class="fancy">About Me</h1> 
+        </div>
         <div class="header-content">
-            <div class="header-text">
-                <h1 data-text="Nicolas Vega" class="fancy">About Me</h1> 
-            </div>
             <div class="contact-info">
                 <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/nvegab99/" target="_blank" title="LinkedIn">
+                    <a href="https://www.linkedin.com/in/nvegab99" target="_blank" title="LinkedIn">
                         <img src="../images/linkedin.png" alt="LinkedIn Icon">
                     </a>
                     <a href="mailto:nvegab99@gmail.com" title="Gmail">
@@ -41,13 +41,47 @@
     </nav>
 
     <section id="about">
-        <h2>About Me</h2>
-        <p>Welcome to my personal website. I am a passionate web developer...</p>
+        <div class="collage">
+            <img src="images/image12.png" class = "collage">
+            <img src="images/image4.png" class="collage">
+        </div>
+        <p class ="fancy">
+            Hi, I’m Nicolas Vega, I usually am referred to as Nico. I was born in raised in San Francisco and am currently attending my dream school, UC Berkeley!
+        </p>
     </section>
 
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-        <!-- Add your projects here -->
+    <section id="Coding">
+        <div class="collage">
+            <img src="images/image9.png" class = "collage">
+            <img src="images/image5.png" class="collage">
+        </div>
+        <p>
+             I got my start in coding when I was 8 years old. There was a game called Sonic Robo Blast 2 which was an entirely new game made off the DOOM engine. Learning how to modify DOOM’s WAD file for this very obscure game was how I started building my technical knowledge.
+        </p>
+    </section>
+
+    <section id="Games">
+        <h2>Heated Gamer Moments</h2>
+        <table style:"display:flex;flex-orientation:column;">
+            
+            <tr>
+                <img src="images/tekken.png" style="width:80%;background:rgba(255, 255, 255, 0.8)">
+                <h3 >Tekken 8 Tourney First Place</h3>
+                <iframe width="90%" height="90%" src="https://www.youtube.com/watch?v=sSPpqPjxNeM"></iframe>
+            </tr>
+            <tr>
+                <h3>Final Fantasy XIV OK2BG</h3>
+                <iframe width="25%" height="25%" src="https://www.twitch.tv/videos/1256855076?filter=all&sort=views"></iframe>
+                <iframe width="25%" height="25%" src="https://www.twitch.tv/videos/1256853574?filter=highlights&sort=time"></iframe>
+                <iframe width="25%" height="25%" src="https://www.twitch.tv/videos/1256851280?filter=highlights&sort=time"></iframe>
+                <iframe width="25%" height="25%" src="https://www.twitch.tv/videos/1256850329?filter=highlights&sort=time"></iframe>
+                <iframe width="25%" height="25%" src="https://www.twitch.tv/videos/1256849450?filter=highlights&sort=time"></iframe>
+                <iframe width="25%" height="25%" src="https://www.twitch.tv/videos/1525632971?filter=highlights&sort=time"></iframe>
+            </tr>
+        
+        </table>
+
+        
     </section>
 </body>
 </html>
